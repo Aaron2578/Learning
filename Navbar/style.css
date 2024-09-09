@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -18,4 +19,26 @@
 }
 li {
   list-style-type: none;
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items {
+    width: 40%;
+}
+.nav-items >ul {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+  list-style-type: none;
+>>>>>>> 725be87033fee667faca229eaf23fe3417977e0e
 }
